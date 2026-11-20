@@ -89,7 +89,7 @@
     const image = typeof entry === "string" ? entry : entry && entry.image;
     return {
       image: image || `img/${String(day).padStart(2, "0")}.jpg`,
-      caption: (entry && typeof entry === "object" && entry.caption) || ""
+      description: (entry && typeof entry === "object" && entry.description) || ""
     };
   }
 
@@ -260,9 +260,9 @@
     activeDay = day;
     returnFocusTo = door;
     photoTitle.textContent = dayLabel(day);
-    photoText.textContent = info.caption;
-    photoText.hidden = !info.caption;
-    photo.alt = info.caption || `Bild för ${dayLabel(day)}`;
+    photoText.textContent = info.description;
+    photoText.hidden = !info.description;
+    photo.alt = info.description || `Bild för ${dayLabel(day)}`;
     missingPath.textContent = info.image;
     photoBox.classList.remove("is-missing");
 

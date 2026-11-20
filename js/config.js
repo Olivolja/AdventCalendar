@@ -3,7 +3,7 @@
  */
 window.ADVENT_CONFIG = {
   // Heading shown at the top of the page.
-  title: "Adams och Tannas julkalender",
+  title: "Adams and Tannaz julkalender",
 
   // The December this calendar belongs to. Door N unlocks at midnight on N December of this year.
   year: 2026,
@@ -13,31 +13,32 @@ window.ADVENT_CONFIG = {
   previewDate: null,
 
   // One entry per door (1–24). Replace the photos in the img folder, or point to other files here.
-  // "caption" is optional text shown under the photo.
+  // "description" is the short text shown under the photo. Replace each placeholder with your own
+  // text, or use "" to show no text.
   days: [
-    { image: "img/01.jpg", caption: "" },
-    { image: "img/02.jpg", caption: "" },
-    { image: "img/03.jpg", caption: "" },
-    { image: "img/04.jpg", caption: "" },
-    { image: "img/05.jpg", caption: "" },
-    { image: "img/06.jpg", caption: "" },
-    { image: "img/07.jpg", caption: "" },
-    { image: "img/08.jpg", caption: "" },
-    { image: "img/09.jpg", caption: "" },
-    { image: "img/10.jpg", caption: "" },
-    { image: "img/11.jpg", caption: "" },
-    { image: "img/12.jpg", caption: "" },
-    { image: "img/13.jpg", caption: "" },
-    { image: "img/14.jpg", caption: "" },
-    { image: "img/15.jpg", caption: "" },
-    { image: "img/16.jpg", caption: "" },
-    { image: "img/17.jpg", caption: "" },
-    { image: "img/18.jpg", caption: "" },
-    { image: "img/19.jpg", caption: "" },
-    { image: "img/20.jpg", caption: "" },
-    { image: "img/21.jpg", caption: "" },
-    { image: "img/22.jpg", caption: "" },
-    { image: "img/23.jpg", caption: "" },
-    { image: "img/24.jpg", caption: "" }
+    { image: "img/01.jpg", description: "Här kommer en liten beskrivning av bilden." },
+    { image: "img/02.jpg", description: "Här kommer en liten beskrivning av bilden." },
+    { image: "img/03.jpg", description: "Här kommer en liten beskrivning av bilden." },
+    { image: "img/04.jpg", description: "Här kommer en liten beskrivning av bilden." },
+    { image: "img/05.jpg", description: "Här kommer en liten beskrivning av bilden." },
+    { image: "img/06.jpg", description: "Här kommer en liten beskrivning av bilden." },
+    { image: "img/07.jpg", description: "Här kommer en liten beskrivning av bilden." },
+    { image: "img/08.jpg", description: "Här kommer en liten beskrivning av bilden." },
+    { image: "img/09.jpg", description: "Här kommer en liten beskrivning av bilden." },
+    { image: "img/10.jpg", description: "Här kommer en liten beskrivning av bilden." },
+    { image: "img/11.jpg", description: "Här kommer en liten beskrivning av bilden." },
+    { image: "img/12.jpg", description: "Här kommer en liten beskrivning av bilden." },
+    { image: "img/13.jpg", description: "Här kommer en liten beskrivning av bilden." },
+    { image: "img/14.jpg", description: "Här kommer en liten beskrivning av bilden." },
+    { image: "img/15.jpg", description: "Här kommer en liten beskrivning av bilden." },
+    { image: "img/16.jpg", description: "Här kommer en liten beskrivning av bilden." },
+    { image: "img/17.jpg", description: "Här kommer en liten beskrivning av bilden." },
+    { image: "img/18.jpg", description: "Här kommer en liten beskrivning av bilden." },
+    { image: "img/19.jpg", description: "Här kommer en liten beskrivning av bilden." },
+    { image: "img/20.jpg", description: "Här kommer en liten beskrivning av bilden." },
+    { image: "img/21.jpg", description: "Här kommer en liten beskrivning av bilden." },
+    { image: "img/22.jpg", description: "Här kommer en liten beskrivning av bilden." },
+    { image: "img/23.jpg", description: "Här kommer en liten beskrivning av bilden." },
+    { image: "img/24.jpg", description: "Här kommer en liten beskrivning av bilden." }
   ]
 };
